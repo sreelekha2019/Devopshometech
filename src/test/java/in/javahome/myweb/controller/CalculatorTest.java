@@ -1,11 +1,5 @@
 package in.javahome.myweb.controller;
 
-
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.util.Properties;
-
 import junit.framework.Assert;
 import junit.framework.TestCase;
 
