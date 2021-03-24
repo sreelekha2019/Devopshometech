@@ -5,3 +5,7 @@ pipeline{
             steps{
                 //git clone/pull
                 git credentialsId: 'github', url: 'https://github.com/sreelekha2019/Devopshometech.git'
+            }
+        }
+    }
+}
