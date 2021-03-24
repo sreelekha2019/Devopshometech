@@ -7,5 +7,10 @@ pipeline{
                 git credentialsId: 'github', url: 'https://github.com/sreelekha2019/Devopshometech.git'
             }
         }
+        stage('maven build'){
+            steps{
+                sh 'mvn clean package'
+            }
+        }
     }
 }
