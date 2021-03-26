@@ -1,6 +1,8 @@
 pipeline{
-    agent any
-    stages{
+    agent{
+        master 'slave-one'
+    }
+        stages{
         stage('Git checkout'){
             steps{
                 //git clone/pull
