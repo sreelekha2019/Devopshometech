@@ -1,6 +1,6 @@
 pipeline{
     agent{
-        master 'slave-one'
+        label'slave-one'
     }
         stages{
         stage('Git checkout'){
